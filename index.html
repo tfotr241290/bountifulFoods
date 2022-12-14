@@ -4,9 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="This is a landing page for the BountifulFoods site which is a place to buy fresh and organic foods.">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Schoolbell&display=swap" rel="stylesheet">
+    <title>Bountiful Foods</title>
 </head>
 <body>
+
+    <div class="social-media">
+        <p>Visit us</p>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/1077/1077041.png" alt="facebook_logo"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/1077/1077046.png" alt="youtube_logo"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/1077/1077042.png" alt="insta_logo"></a>
+    </div>
+    <nav>
+        <a href="/bountifulFoods/fresh.html">FRESH</a>
+        <a href="/bountifulFoods/index.html"><img src="images/bountiful_logo.png" alt="logo" id="logo"></a>
+        <a href="/bountifulFoods/aboutus.html">ABOUT US</a>
+    </nav>
+
+    <main>
+        <div class="header">
+            <h1>WELCOME !</h1>
+        </div>
+        <div class="info-section">
+        
+            
+            <h2>Our Headquarters</h2>
+            <p>Salinas is a city in California and the county seat of Monterey County. The city is located at the mouth of the Salinas Valley, about eight miles (13 km) from the Pacific Ocean, and it has a climate more influenced by the ocean than the interior.<br><br>Since 2015, Forbes has hosted the yearly Forbes AgTech Summit in Salinas. The event draws agricultural technology entrepreneurs from around the world and includes speakers, group discussions, tours, on site demonstrations<br><br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102383.6924079181!2d-121.71123941084477!3d36.68675220341903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808df8964e61722f%3A0xa511bb11baed8121!2sSalinas%2C%20CA%2C%20USA!5e0!3m2!1sen!2smx!4v1670521159892!5m2!1sen!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        </div>
+
+        <div class="fruit-mix">
+            <h2>MAKE YOUR OWN FRUIT MIX</h2>
+            <p>Here in Bountiful Foods, we grow organic fruits and vegetables with the highest quality standards that our customers deserve. You won't regret! Make your own fruit juice mix.</p>
+            <a href="/bountifulFoods/fresh.html"><button id="mix">MIX HERE</button></a>
+        </div>
+
+    </main>
+    <section class="cards">
+        <div class="weather-header">
+            <h2>Weather 3-Day Forecast</h2>
+            <p>Salinas, California</p>
+        </div>
+        <div class="main-card">
+            <h2>Today</h2>
+            <img id="weather-icon" src="" alt="">
+            <h2><span id="temp"></span>&deg;F</h2>
+            <span id="w-description"></span>
+            <p>Humidity: <span id="humidity"></span>%</p>
+        </div>
+
+        <div class="fore1">
+            <h2>Day 1</h2>
+            <img id="fore-icon1" src="" alt="">
+            <h2><span id="fore-temp1"></span>&deg;F</h2>
+            <span id="fore-description1"></span>
+            <p>Humidity: <span id="fore-humidity1"></span>%</p>
+        </div>
+        <div class="fore2">
+            <h2>Day 2</h2>
+            <img id="fore-icon2" src="" alt="">
+            <h2><span id="fore-temp2"></span>&deg;F</h2>
+            <span id="fore-description2"></span>
+            <p>Humidity: <span id="fore-humidity2"></span>%</p>
+        </div>
+        <div class="fore3">
+            <h2>Day 3</h2>
+            <img id="fore-icon3" src="" alt="">
+            <h2><span id="fore-temp3"></span>&deg;F</h2>
+            <span id="fore-description3"></span>
+            <p>Humidity: <span id="fore-humidity3"></span>%</p>
+        </div>
+
+        <div class="drinks-card">
+            <h1>The number of special drinks you have submitted is: </h1>
+            <span id="mix-number"><h2> drinks</h2></span>
+        </div>
+
+        
+    </section>
+
+    <footer>
+        <div class="logo-name">
+            <h3>Bountiful Foods, CA</h3>
+            <a href="/bountifulFoods/index.html"><img src="images/bountiful_logo.png" alt="logo" id="flogo"></a>
+        </div>
+        <div class="contact">
+            <p>Address: Exit off Hwy 68, Spreckels Blvd, Salinas, CA 93908, United States</p>
+            <p>Phone: +18314552575</p>
+            <p>E-mail: bountifulfoods@gmail.com</p>
+        </div>
+        <div class="references">
+            <p>©2022 Francisco Franco WDD230 class BYU-Idaho</p>
+            <a href="references.html">Source Attributions</a>
+        </div>
+
+    </footer>
+
+
     
+
+
+    <script src="/bountifulFoods/scripts/forecast.js"></script>
 </body>
 </html>

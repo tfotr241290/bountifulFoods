@@ -1,0 +1,32 @@
+@media only screen and (max-width : 540px){
+    main{
+        display: block;
+    }
+    .cards{
+        display: block;
+    }
+    footer{
+        display: block;
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+    .fruit-mix{
+        padding-bottom: 2rem;
+    }
+    nav a{
+        font-size: 1rem;
+    }
+    .info-section p{
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    .form-grid{
+        display: block;
+
+    }
+    .selection{
+        margin-bottom: 1rem;
+    }
+
+}
