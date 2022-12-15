@@ -331,3 +331,31 @@ footer{
     align-self: center;
 }
 
+.about{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto;
+    margin: 1rem;
+}
+.about-image{
+    grid-column: 1/7;
+    grid-row: 1/2;
+    
+}
+.about-image img{
+    width: 100%;
+    height: auto;
+}
+
+.about-section{
+    grid-column: 7/13;
+    grid-row: 1/2;
+    text-align: justify;
+    padding: 1rem;
+}
+.about-section p{
+    line-height: 1.5rem;
+}
+.about-section h2{
+    color: #804000;
+}

@@ -29,4 +29,8 @@
         margin-bottom: 1rem;
     }
 
+    .about{
+        display: block;
+    }
+
 }

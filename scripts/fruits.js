@@ -27,3 +27,27 @@ const displayFruits = (fruitList) =>{
 }
 
 requestFruits(fruitsUrl);
+
+const feedbackElement = document.querySelector('feedback');
+const cDate = new Date();
+const fullDate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(cDate);
+
+           
+const formElement = document.querySelector("#firstName");
+const formElement2 = document.querySelector("#eMail");
+const formElement3 = document.querySelector("#phoneNumber");
+            
+formElement.addEventListener('submit', function(e) {
+               
+    e.preventDefault();
+                
+    feedbackText = `Hello ${formElement.value} <br> <p>Your Email: ${formElement2.value}</p> <br> <p>Your Phone: ${formElement3.value}</p> <br> <p>Your Fruits: ${fruit1.value},${fruit2.value},${fruit3.value}</p> <br> <p>Date: ${fullDate}</p>`;
+                
+    feedbackElement.style.display = "block";
+    feedbackElement.appendChild(feedbackText);
+               
+
+});
+
+
+
